@@ -57,7 +57,8 @@ devision.onclick = function(){ showBox.value = showBox.value + " / "};
 const multiplication = document.getElementById("multiplication")
 multiplication.onclick = function(){ showBox.value = showBox.value + " * "};
 
-
+const float = document.getElementById("float")
+float.onclick = function(){ showBox.value = showBox.value + "."};
 
 // evenlistener from the input
 
