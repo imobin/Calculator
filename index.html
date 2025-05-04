@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatorjs</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <div id="main" class="h-screen grid grid-cols-1 place-items-center">
+        <fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
+            <!-- <legend class="fieldset-legend">Login</legend> -->
+          
+            <!-- <label class="label">Email</label> -->
+            <input type="text" class="input" id="showBox"/>
+          
+            <!-- <label class="label">Password</label>
+            <input type="password" class="input" placeholder="Password" /> -->
+            <div class="grid grid-cols-4 gap-1">
+                <button class="btn btn-secondary mt-4 col-span-2" id="C">C</button>
+                <button class="btn btn-secondary mt-4 col-span-2" id="Rm">Rm</button>
+                <button class="btn btn-neutral mt-4 col-start-1" id="one">1</button>
+                <button class="btn btn-neutral mt-4" id="two">2</button>
+                <button class="btn btn-neutral mt-4" id="three">3</button>
+                <button class="btn btn-warning mt-4" id="plus">+</button>
+                <button class="btn btn-neutral mt-4" id="four">4</button>
+                <button class="btn btn-neutral mt-4" id="five">5</button>
+                <button class="btn btn-neutral mt-4" id="six">6</button>
+                <button class="btn btn-warning mt-4" id="minus">-</button>
+                <button class="btn btn-neutral mt-4" id="seven">7</button>
+                <button class="btn btn-neutral mt-4" id="eight">8</button>
+                <button class="btn btn-neutral mt-4" id="nine">9</button>
+                <button class="btn btn-warning mt-4" id="multiplication">x</button>
+                <button class="btn btn-neutral mt-4" id="float">.</button>
+                <button class="btn btn-neutral mt-4" id="zero">0</button>
+                <button class="btn btn-success mt-4" id="equal">=</button>
+                <button class="btn btn-warning mt-4" id="devision">/</button>
+
+
+            </div>
+          </fieldset>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
